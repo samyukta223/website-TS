@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Times New Roman", serif;
+
+    background: rgb(232, 120, 217);
+}
+
+.question-container {
+    text-align: center;
+}
+
+h1 {
+        color: rgb(255, 255, 255);
+
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+h2 {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#yesPage,
+#ANPage,
+#AYPage {
+    width: 1000px;
+    min-height: 150px;
+    font-size: 50px;
+
+    text-align: center;
+
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+button {
+    padding: 15px 30px;
+
+    font-size: 20px;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    margin: 10px;
+}
+
+
+#yesBtn {
+    font-family: "Times New Roman", serif;
+
+    background: rgb(208, 53, 219);
+    color: white;
+}
+
+#noBtn {
+    font-family: "Times New Roman", serif;
+    background: rgb(101, 161, 40);
+    color: white;
+}
+
+#ANBtn {
+        font-family: "Lucida Handwriting", cursive;
+
+    background: rgb(63, 113, 252);
+    color: white;
+}
+
+#AYBtn {
+        font-family: "Lucida Handwriting", cursive;
+
+    background: rgb(213, 47, 47);
+    color: white;
+}
+
+#yesPage {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+}
+
+#ANPage {
+    max-width: 100%;
+    object-fit: contain;
+    color: white;
+}
+
+#AYPage {
+
+    max-width: 100%;
+    object-fit: contain;
+    color: white;
+}
+
+#yesPage ,
+#ANPage ,
+#AYPage {
+    display: none;
+}
+
