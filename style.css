@@ -23,8 +23,8 @@ h1 {
 }
 h2 {
     font-family: "Comic Sans MS", cursive;
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 h3 {
     font-family: "Times New Roman", serif;
@@ -36,7 +36,7 @@ h3 {
 #yesPage,
 #ANPage,
 #AYPage {
-    width: 1000px;
+    width: 1500px;
     min-height: 150px;
     font-size: 50px;
 
