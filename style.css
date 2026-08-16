@@ -26,6 +26,12 @@ h2 {
     font-size: 50px;
     margin-bottom: 20px;
 }
+h3 {
+    font-family: "Times New Roman", serif;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+}
 
 #yesPage,
 #ANPage,
